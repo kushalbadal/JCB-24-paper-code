@@ -31,3 +31,13 @@ This repository contains an implementation of an autoencoder neural network arch
 * Prediction: Utilize the trained GPT-2 model to generate predictions for protein sequences. The model can fill in missing gaps and correct errors in the sequences.<br>
 
 * Run gpt_train.ipynb file to train and predict_sequence.ipynb file to test the model
+
+# CNN-LSTM
+* CNN-LSTM Model: This repository implements a CNN-LSTM (Convolutional Neural Network - Long Short-Term Memory) model for protein scaffold filling. The architecture combines the strengths of convolutional layers for feature extraction and LSTM layers for sequence modeling, enabling effective learning from sequential data.
+
+* Data Preprocessing: Prepare protein sequence data for training and evaluation by preprocessing it. This involves converting raw sequences into numerical representations, reshaping them for model input, and normalizing them to facilitate learning.
+
+* Training and Evaluation: Train the CNN-LSTM model on protein sequence data and evaluate its performance using loss and accuracy metrics. The training process involves optimizing the model's parameters to minimize the loss function and enhance its ability to generate accurate protein sequences.
+
+* Prediction: Utilize the trained CNN-LSTM model to generate predictions for protein scaffold filling.
+* Run cnn-lstm.py code to train and test model
